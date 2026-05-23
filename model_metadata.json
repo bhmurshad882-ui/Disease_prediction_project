@@ -1,0 +1,77 @@
+{
+  "feature_names": [
+    "Glucose",
+    "Cholesterol",
+    "Hemoglobin",
+    "Platelets",
+    "White Blood Cells",
+    "Red Blood Cells",
+    "Hematocrit",
+    "Mean Corpuscular Volume",
+    "Mean Corpuscular Hemoglobin",
+    "Mean Corpuscular Hemoglobin Concentration",
+    "Insulin",
+    "BMI",
+    "Systolic Blood Pressure",
+    "Diastolic Blood Pressure",
+    "Triglycerides",
+    "HbA1c",
+    "LDL Cholesterol",
+    "HDL Cholesterol",
+    "ALT",
+    "AST",
+    "Heart Rate",
+    "Creatinine",
+    "Troponin",
+    "C-reactive Protein"
+  ],
+  "class_names": [
+    "Anemia",
+    "Diabetes",
+    "Healthy",
+    "Thalasse",
+    "Thromboc"
+  ],
+  "train_accuracy": 100.0,
+  "test_accuracy": 100.0,
+  "num_samples": 2351,
+  "num_features": 24,
+  "architecture": "128 \u2192 64 \u2192 32 (ReLU, Adam)",
+  "confusion_matrix": [
+    [
+      125,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      108,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      111,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      102,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      25
+    ]
+  ]
+}
